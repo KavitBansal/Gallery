@@ -1,4 +1,4 @@
-package com.android.example.asus.appstreet_kb_assmnt;
+package com.android.example.asus.gallery;
 
 import android.content.SearchRecentSuggestionsProvider;
 
@@ -8,7 +8,7 @@ import android.content.SearchRecentSuggestionsProvider;
 public class SuggestionProvider extends SearchRecentSuggestionsProvider {
 
     // part of content uri which is defined in AndroidManifest.xml
-    public static final String AUTHORITY = "com.android.example.asus.appstreet_kb_assmnt" +
+    public static final String AUTHORITY = "com.android.example.asus.gallery" +
             ".SuggestionProvider";
 
     // suggestion mode which gives recent queries

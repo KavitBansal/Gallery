@@ -1,4 +1,4 @@
-package com.android.example.asus.appstreet_kb_assmnt;
+package com.android.example.asus.gallery;
 
 import android.net.Uri;
 
@@ -9,16 +9,10 @@ import android.net.Uri;
 public class UrlManager {
     private static final String TAG = UrlManager.class.getSimpleName();
 
-//    public static final String API_KEY = "178069b03af62f5735258c0a10a14d6e";
-//    public static final String PREF_SEARCH_QUERY ="searchQuery";
 
-//    private static final String ENDPOINT = "https://api.flickr.com/services/rest/";
-//    private static final String METHOD_GETRECENT = "flickr.photos.getRecent";
-//    private static final String METHOD_SEARCH = "flickr.photos.search";
+    public static final String API_KEY = "9cde2708c44a740260546d1b939dbd57";
+                                    //   "6f102c62f41998d151e5a1b48713cf13"
 
-
-
-    public static final String API_KEY = "9cde2708c44a740260546d1b939dbd57" ;
     // must public
     public static final String PREF_SEARCH_QUERY = "searchQuery";
 

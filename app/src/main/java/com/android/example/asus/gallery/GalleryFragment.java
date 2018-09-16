@@ -1,4 +1,4 @@
-package com.android.example.asus.appstreet_kb_assmnt;
+package com.android.example.asus.gallery;
 
 import android.app.SearchManager;
 import android.app.SearchableInfo;
@@ -7,7 +7,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.provider.SearchRecentSuggestions;
 import android.support.v4.app.Fragment;
 
 import android.support.v7.widget.GridLayoutManager;
@@ -368,27 +367,11 @@ public class GalleryFragment extends Fragment {
 
 
 
-//                SearchRecentSuggestions suggestions = new SearchRecentSuggestions(getActivity(),
-//                        SuggestionProvider.AUTHORITY, SuggestionProvider.MODE);
-//                suggestions.clearHistory();
-//
-//                if (mSearchView != null) {
-//                    mSearchView.setQuery("", false);
-//                    mSearchView.setIconified(false);
-//                }
-//
-//
-//                PreferenceManager.getDefaultSharedPreferences(getActivity())
-//                        .edit()
-//                        .putString(UrlManager.PREF_SEARCH_QUERY, null)
-//                        .commit();
-//
-//                refresh();
-//                selectionHandled = true;
-//                break;
+
             default:
                 selectionHandled = super.onOptionsItemSelected(item);
                 break;
+
         }
         return selectionHandled;
     }

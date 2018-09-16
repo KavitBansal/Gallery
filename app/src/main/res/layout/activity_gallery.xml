@@ -4,12 +4,12 @@
     xmlns:tools = "http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.android.example.asus.appstreet_kb_assmnt.GalleryActivity">
+    tools:context="com.android.example.asus.gallery.GalleryActivity">
 
 
     <fragment
         android:id="@+id/gallery_fragment"
-        android:name="com.android.example.asus.appstreet_kb_assmnt.GalleryFragment"
+        android:name="com.android.example.asus.gallery.GalleryFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

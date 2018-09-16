@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppStreet</string>
+    <string name="app_name">Gallery</string>
     <string name="search">Search</string>
     <string name="move">Move To Top</string>
     <string name="clear">Clear</string>

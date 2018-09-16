@@ -1,30 +1,18 @@
-package com.android.example.asus.appstreet_kb_assmnt;
+package com.android.example.asus.gallery;
 
 
-import android.app.DownloadManager;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 
 
 public class PhotoFragment extends Fragment {

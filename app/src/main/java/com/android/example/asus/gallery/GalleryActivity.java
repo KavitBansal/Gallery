@@ -1,4 +1,4 @@
-package com.android.example.asus.appstreet_kb_assmnt;
+package com.android.example.asus.gallery;
 
 import android.app.SearchManager;
 import android.content.Intent;
@@ -39,7 +39,6 @@ public class GalleryActivity extends AppCompatActivity {
 
 
 
-//
             SearchRecentSuggestions suggestions = new SearchRecentSuggestions(this,
                     SuggestionProvider.AUTHORITY, SuggestionProvider.MODE);
             suggestions.saveRecentQuery(query, null);

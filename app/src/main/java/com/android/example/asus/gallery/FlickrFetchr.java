@@ -1,4 +1,4 @@
-package com.android.example.asus.appstreet_kb_assmnt;
+package com.android.example.asus.gallery;
 
 import android.net.Uri;
 
@@ -13,7 +13,8 @@ import java.net.URL;
  */
 public class FlickrFetchr {
 
-    public static final String API_KEY = "9cde2708c44a740260546d1b939dbd57" ;
+    public static final String API_KEY = "9cde2708c44a740260546d1b939dbd57";
+                                       //"6f102c62f41998d151e5a1b48713cf13"
     // must public
     public static final String PREF_SEARCH_QUERY = "searchQuery";
 

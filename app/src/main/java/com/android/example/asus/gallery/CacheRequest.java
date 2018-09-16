@@ -1,4 +1,4 @@
-package com.android.example.asus.appstreet_kb_assmnt;
+package com.android.example.asus.gallery;
 
 import com.android.volley.Cache;
 import com.android.volley.NetworkResponse;
