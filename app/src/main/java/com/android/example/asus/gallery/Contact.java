@@ -24,7 +24,7 @@ public class Contact {
         if (instance == null) {
             instance = new Contact();
         }
-
+     //some changes
         return instance;
     }
 
